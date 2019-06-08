@@ -1,0 +1,110 @@
+/*csslint empty-rules: false, ids: false, qualified-headings: false*/
+/************************* TAG SELECTORS *************************/
+
+body {
+  background-color: #fff1c1;
+  /* margin: 10px; */
+  overflow-x: hidden;
+}
+
+footer p {
+  background-color: #ff487e;
+  margin: 0;
+  padding: 10px 0;
+  text-align: center;
+}
+
+h1 {
+  position: relative;
+  text-align: center;
+  text-decoration: underline;
+  top: 50%;
+  transform: translate(0,-50%);
+}
+
+h2 {
+  margin: 30px 0 10px 0;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+img {
+  width: auto;
+}
+
+p {
+  margin: 10px 0;
+}
+
+/************************ CLASS SELECTORS ************************/
+
+.animal {
+  margin: 45px 0;
+  text-align: center;
+}
+
+.instruct {
+  margin: 10px 0 45px 0;
+}
+
+.img-container {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 145px;
+  left: 50%;
+  margin: 0 0 10px 0;
+  position: relative;
+  transform: translate(-50%, 0);
+  width: 145px;
+}
+
+.last {
+  margin-bottom: 0;
+}
+
+.page-header {
+  background-color: #ff487e;
+  height: 175px;
+}
+
+.placeholder-img {
+  background-image: url("../img/placeholder.png");
+}
+
+.row{
+  background-color: #fff;
+  padding: 0 10px;
+}
+
+.stage {
+  filter: opacity(0.2);
+  -webkit-filter: opacity(0.2);
+  margin: 25px 0;
+}
+
+.stage:hover {
+  filter: opacity(1);
+  -webkit-filter: opacity(1);
+}
+
+/************************* ID SELECTORS **************************/
+
+#adult-frog {
+  background-image: url("../img/adult-frog.png");
+}
+
+#frog-eggs {
+  background-image: url("../img/frog-eggs.png");
+}
+
+#froglet {
+  background-image: url("../img/froglet.png");
+}
+
+#tadpole {
+  background-image: url("../img/tadpole.png");
+}
